@@ -1,4 +1,9 @@
 import { Car } from '../types/car';
+import crimsonSupercarImg from '../assets/images/car_crimson_supercar_1791195648361.jpg';
+import electricGtImg from '../assets/images/car_electric_gt_1791195665955.jpg';
+import luxurySuvImg from '../assets/images/car_luxury_suv_1791195679012.jpg';
+import heritageSpeedsterImg from '../assets/images/car_heritage_speedster_1791195690922.jpg';
+import hyperionLmImg from '../assets/images/hero_hypercar_showroom_1791195635288.jpg';
 
 export const SHOWROOM_CARS: Car[] = [
   {
@@ -14,7 +19,7 @@ export const SHOWROOM_CARS: Car[] = [
     availability: 'Available in Showroom',
     vin: 'VLC-IT-2026-0914-SV',
     mileage: '12 miles',
-    image: '/src/assets/images/car_crimson_supercar_1791195648361.jpg',
+    image: crimsonSupercarImg,
     engineType: '6.5L Naturally Aspirated 65° V12',
     powertrainSound: 'v12',
     horsepower: 830,
@@ -54,7 +59,7 @@ export const SHOWROOM_CARS: Car[] = [
     availability: 'Available in Showroom',
     vin: 'ZPH-US-2026-7840-EV',
     mileage: '6 miles',
-    image: '/src/assets/images/car_electric_gt_1791195665955.jpg',
+    image: electricGtImg,
     engineType: 'Quad Permanent-Magnet Synchronous Electric Motors',
     powertrainSound: 'ev',
     horsepower: 1350,
@@ -94,7 +99,7 @@ export const SHOWROOM_CARS: Car[] = [
     availability: 'Showroom Display',
     vin: 'CRT-UK-2026-4412-SV',
     mileage: '28 miles',
-    image: '/src/assets/images/car_luxury_suv_1791195679012.jpg',
+    image: luxurySuvImg,
     engineType: '4.4L Twin-Turbocharged V8 with 48V Mild-Hybrid EQ Boost',
     powertrainSound: 'v8',
     horsepower: 675,
@@ -134,7 +139,7 @@ export const SHOWROOM_CARS: Car[] = [
     availability: '1 Allocation Remaining',
     vin: 'ATH-MC-1968-007-VAULT',
     mileage: '0 miles (Factory Fresh)',
-    image: '/src/assets/images/car_heritage_speedster_1791195690922.jpg',
+    image: heritageSpeedsterImg,
     engineType: '4.0L Air-Cooled Architecture Water-Headed Flat-6',
     powertrainSound: 'turbo',
     horsepower: 520,
@@ -174,7 +179,7 @@ export const SHOWROOM_CARS: Car[] = [
     availability: 'Showroom Display',
     vin: 'ATH-CH-2026-0001-LM',
     mileage: '4 miles',
-    image: '/src/assets/images/hero_hypercar_showroom_1791195635288.jpg',
+    image: hyperionLmImg,
     engineType: '4.0L Flat-Plane Crank Twin-Turbo V8 + Dual Front Axial-Flux Motors',
     powertrainSound: 'v8',
     horsepower: 1100,

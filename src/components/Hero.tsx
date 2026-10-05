@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Compass, ShieldCheck } from 'lucide-react';
 import { SHOWROOM_STATS } from '../data/cars';
+import heroImage from '../assets/images/hero_hypercar_showroom_1791195635288.jpg';
 
 interface HeroProps {
   onExploreWings: () => void;
@@ -13,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreWings, onInspectCenterStage
       {/* Background Hero Asset with Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_hypercar_showroom_1791195635288.jpg"
+          src={heroImage}
           alt="Atelier Automotive Luxury Store Room Center Podium"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
