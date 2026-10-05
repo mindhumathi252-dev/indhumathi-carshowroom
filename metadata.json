@@ -1,0 +1,8 @@
+{
+  "name": "Atelier Automotive — Luxury Showroom & Inventory Store",
+  "description": "Exclusive car showroom featuring flagship supercars, hypercars, luxury grand tourers, live 3D multi-angle inspection, sound rev engine simulator, and VIP viewing reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
